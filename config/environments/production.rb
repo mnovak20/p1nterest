@@ -79,7 +79,7 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'https://pacific-caverns-7549.herokuapp.com/' }
 
-
+  # upload images to amazon s3
   config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
